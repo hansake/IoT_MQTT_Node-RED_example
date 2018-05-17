@@ -50,7 +50,7 @@ by changing the server address in the mqtt block (double click on one of the mqt
 
 ## Run the example
 Click on "Deploy" in the Node-RED web page and the Node-RED program will run.
-Test the user interface launching a web browser page; either locally at localhost:1880/ui or at (RPi IP address):1880/ui
+Test the user interface by launching a web browser page; either locally at localhost:1880/ui or at (RPi IP address):1880/ui
 
 In the figures directory there is a screenshot file showing the user interface.
 
