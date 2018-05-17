@@ -7,6 +7,15 @@ Communication between RPi and Arduino is with MQTT using the Mosquitto MQTT brok
 installed on the RPi.
 
 ## Installation
+### Arduino
+This test setup is using an Arduino UNO and an Ethernet shield (https://www.arduino.cc/). 
+Connected to the Arduino is a LED and a switch as described in the schematic in the figures directory.
+
+It is assumed that the Arduino development environment is installed.
+
+Download from the source directory and open it in the Arduino development environment.
+Then upload the code to the Arduino and it will be started.
+
 ### Raspberry Pi
 Install the Mosquitto MQTT broker (http://mosquitto.org/) on Raspberry Pi using the following steps:
 * $ wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
