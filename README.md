@@ -15,7 +15,7 @@ It is assumed that the Arduino development environment is installed.
 This example was tested with the Arduino Windows IDE (https://www.arduino.cc/en/Guide/Windows)
 and the Arduino Linux IDE (https://www.arduino.cc/en/Guide/Linux).
 
-Install Arduino PubSubClient MQTT Client using Library Manager the in Arduino IDE.
+Install Arduino PubSubClient MQTT Client (https://github.com/knolleary/pubsubclient) using the Library Manager the in Arduino IDE.
 
 Download "ArdMQTTio.ino" from the source directory and open it in the Arduino development environment.
 The address to the Mosquitto broker (i.e. the IP address of the RPi) must be updated to the correct value.
