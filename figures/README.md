@@ -1,1 +1,1 @@
-This directory contains photos and screenshots.
+This directory contains schematics, photos and screenshots.
