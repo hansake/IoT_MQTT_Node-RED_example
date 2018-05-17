@@ -26,4 +26,5 @@ Install the npm package manager.
 Launch a web browser; either locally at localhost:1880 or at (RPi IP address):1880.
   
 Then install the Dashboard package (https://github.com/node-red/node-red-dashboard)
-using "Manage palette" in the menu. Then stop and re-start Node-RED.
+using "Manage palette" in the menu (search fornode-red-dashboard).
+Then stop and re-start Node-RED.
