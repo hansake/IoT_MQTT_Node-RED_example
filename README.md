@@ -12,6 +12,8 @@ This test setup is using an Arduino UNO and an Ethernet shield (https://www.ardu
 Connected to the Arduino is a LED and a switch as described in the schematic in the figures directory.
 
 It is assumed that the Arduino development environment is installed.
+This example was tested with the Arduino Windows IDE (https://www.arduino.cc/en/Guide/Windows)
+and the Arduino Linux IDE (https://www.arduino.cc/en/Guide/Linux).
 
 Install Arduino PubSubClient MQTT Client using Library Manager the in Arduino IDE.
 
