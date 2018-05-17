@@ -43,9 +43,9 @@ Then stop and re-start Node-RED.
 Download the file "Node-RED_MQTT.txt" from the source directory and copy the content to the clipboard.
 In the Node-RED web page open the Import menu item and get the code from the clipboard.
 
+In the figures directory there is a screenshot file showing the blocks of the Node-RED program.
+
 The address to the Mosquitto broker (i.e. the IP address of the RPi) must be updated to the correct value 
-by changing the server address in the mqtt block.
+by changing the server address in the mqtt block (double click on one of the mqtt blocks to edit).
 
 Click on "Deploy" and the Node-RED program will run.
-
-In the figures directory there is a screenshot file showing 
