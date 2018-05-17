@@ -14,6 +14,7 @@ Connected to the Arduino is a LED and a switch as described in the schematic in 
 It is assumed that the Arduino development environment is installed.
 
 Download "ArdMQTTio.ino" from the source directory and open it in the Arduino development environment.
+The address to the Mosquitto broker (i.e. the IP address of the RPi) must be updated to the correct value.
 Then upload the code to the Arduino UNO and the program will be started.
 
 ### Raspberry Pi
@@ -27,7 +28,8 @@ Install the Mosquitto MQTT broker (http://mosquitto.org/) on Raspberry Pi using 
 Check that the Mosquitto MQTT broker is running:
 * sudo service mosquitto status
 
-Node-RED is pre-installed on Rasbian. The run-time environment can be launched under ‘Menu/Programming/Node-RED’.
+Node-RED (https://nodered.org/) is pre-installed on Rasbian. 
+The run-time environment can be launched under ‘Menu/Programming/Node-RED’.
 
 Install the npm package manager.
 * $ sudo apt-get install npm
@@ -38,8 +40,12 @@ Then install the Dashboard package (https://github.com/node-red/node-red-dashboa
 using "Manage palette" in the menu (search fornode-red-dashboard).
 Then stop and re-start Node-RED.
 
-Download the file from the source directory and copy the content to the clipboard.
+Download the file "Node-RED_MQTT.txt" from the source directory and copy the content to the clipboard.
 In the Node-RED web page open the Import menu item and get the code from the clipboard.
+
+The address to the Mosquitto broker (i.e. the IP address of the RPi) must be updated to the correct value 
+by changing the server address in the mqtt block.
 
 Click on "Deploy" and the Node-RED program will run.
 
+In the figures directory there is a screenshot file showing 
