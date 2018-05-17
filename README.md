@@ -13,6 +13,8 @@ Connected to the Arduino is a LED and a switch as described in the schematic in 
 
 It is assumed that the Arduino development environment is installed.
 
+Install Arduino PubSubClient MQTT Client using Library Manager the in Arduino IDE.
+
 Download "ArdMQTTio.ino" from the source directory and open it in the Arduino development environment.
 The address to the Mosquitto broker (i.e. the IP address of the RPi) must be updated to the correct value.
 Then upload the code to the Arduino UNO and the program will be started.
