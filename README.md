@@ -39,7 +39,7 @@ Install the npm package manager.
 * $ sudo apt-get install npm
 
 Launch a web browser, either locally at the RPi: http://localhost:1880 or at: http://192.168.1.162:1880 
-(192.168.1.162 is the RPi IP address in my setup)
+(192.168.1.162 is the RPi IP address in my setup).
   
 Then install the Dashboard package (https://github.com/node-red/node-red-dashboard)
 using "Manage palette" in the menu (search fornode-red-dashboard).
@@ -56,7 +56,7 @@ by changing the server address in the mqtt block (double click on one of the mqt
 ## Run the example
 Click on "Deploy" in the Node-RED web page and the Node-RED program will run.
 Test the user interface by launching a web browser, either locally at the RPi: http://localhost:1880/ui or at: http://192.168.1.162:1880/ui 
-(192.168.1.162 is the RPi IP address in my setup)
+(192.168.1.162 is the RPi IP address in my setup).
 
 In the figures directory there is a screenshot file showing the user interface.
 
